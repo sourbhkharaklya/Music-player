@@ -55,7 +55,7 @@ i=0;
     audio.src=songsrc[count];
     } );
 
-    var songsrc= ["Bob.B Randhawa - Mirza Bolda - Kalikwest - Barrel - Latest Punjabi Song 2020.mp4","Dark_Love_(Full_Video)___Sidhu_Moosewala___Intense___Baljit_Singh_Deo___Late.m4a","Bewafa-(Mr-Jatt.com).mp3","Latest Punjabi Song 2022 - OHI A NI OHI A - Deep Bajwa Ft Mahi Sharma - Dj Flow  - Punjabi Song 2022.mp4"];
+    var songsrc= ["2_Seater__Gippy_Grewal_(Official_Video)_Afsana_Khan__Amrit_Maan__Sukh_Sanghera__Geet_MP3(256k).mp3","7 Knaalan _ Happy Raikoti _ Latest Punjabi Songs 2015 _ Speed Records(MP3_160K).mp3","Bewafa-(Mr-Jatt.com).mp3","Lakh Rupiya - Veer Sandhu (Official Video) _ Latest Punjabi Songs 2021 _ New Punjabi Songs 2021(MP3_160K).mp3"];
     
    let pervious=document.getElementById("pervious");
    pervious.addEventListener("click",changePervious); 
