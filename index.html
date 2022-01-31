@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap" rel="stylesheet">
+   <title> Music Player</title>
+</head>
+<body>
+    
+    <div id="container">
+      
+ <nav id="nav">
+    <div id="shadow" ></div>
+<div id="logo">
+<span>Beat</span>
+</div >
+<ul id="navicon">
+<li><a href="">Home</a> </li>
+<li><a href="">Playlist</a> </li>
+<li><a href="">Login</a> </li>
+<li><a href="">Support</a> </li>
+
+</ul>
+
+ </nav>
+ <img  id="logoimg"src="music-notes.png" alt=""><br>
+ <div id="audiodiv">
+   
+<h1 >Let the <br> Music Speak!</h1>
+<audio id="music" src=""  ></audio>
+<img id="pervious" class="audioicon" src="previous.png" alt="">
+<img id="playbutton" class="audioicon" src="play-button.png" alt="">
+<img id="next" class="audioicon"src=" next.png" alt="">
+<div class="rangediv">
+    <input type="range" id="range" min="0" max="100">
+ </div>
+ <!-- <input id="file" type="file" multiple> -->
+</div>
+<div id="musicdiv">
+<img  id="musicicon"src="music.png" alt="">
+</div>
+    </div>
+     <script src="javascript.js"></script>
+    
+</body>
+</html>
